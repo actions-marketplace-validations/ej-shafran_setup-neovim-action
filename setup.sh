@@ -50,7 +50,7 @@ function setup_apt_packages() {
 
 function setup_brew_packages() {
   echo "Installing packages: $*"
-  printf 'brew "%s"\n' $* |  brew bundle --no-lock --file=-
+  printf 'brew "%s"\n' $* |  brew bundle --file=-
 }
 
 function get_latest_reposiotry() {
