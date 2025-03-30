@@ -1,6 +1,6 @@
-name: 'Setup Neovim'
+name: 'Setup Neovim (Temporary)'
 description: 'Setup Neovim on GitHub Actions.'
-author: 'MunifTanjim'
+author: 'ej-shafran'
 branding:
   color: 'green'
   icon: 'package'
